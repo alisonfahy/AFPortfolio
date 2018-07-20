@@ -63,9 +63,14 @@ h3 {
   width: 100%;
   margin: 0 0 30px;
   overflow: auto;
-  color: #fff;
+  color: navy;
   background: #fff;
   border-bottom: 2px solid #ccc;
+  background-image: url("..assets/images/EmajPrelude.jpg");
+  background-position: 100% 100%;
+ background-repeat: no-repeat;
+ background-size: cover;
+ background-attachment: fixed;
 }
 
 #logo {
@@ -79,7 +84,12 @@ h3 {
   color: #fff;
   text-align: center;
   text-decoration: none;
-  background: #4aaaa5;
+  background: #0e0870;
+  background-image: url("..assets/images/EmajPrelude.jpg");
+  background-position: 100% 100%;
+ background-repeat: no-repeat;
+ background-size: cover;
+ background-attachment: fixed;
 }
 
 nav {
@@ -92,7 +102,7 @@ nav a {
   padding-left: 15px;
   margin-left: 15px;
   line-height: 18px;
-  color: #999;
+  color: navy;
   text-decoration: none;
   border-left: 1px solid #efefef;
 }

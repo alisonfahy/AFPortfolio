@@ -66,7 +66,7 @@ h3 {
   color: navy;
   background: #fff;
   border-bottom: 2px solid #ccc;
-  background-image: url("..assets/images/EmajPrelude.jpg");
+  background-image: url("images/EmajPrelude.jpg");
   background-position: 100% 100%;
  background-repeat: no-repeat;
  background-size: cover;
@@ -85,11 +85,7 @@ h3 {
   text-align: center;
   text-decoration: none;
   background: #0e0870;
-  background-image: url("..assets/images/EmajPrelude.jpg");
-  background-position: 100% 100%;
- background-repeat: no-repeat;
- background-size: cover;
- background-attachment: fixed;
+
 }
 
 nav {
@@ -120,7 +116,7 @@ footer {
   color: #fff;
   color: #ccc;
   text-align: center;
-  background: #666;
+  background: #0e0870;
   border-top: 8px solid #4aaaa5;
   height: 50px;
 }

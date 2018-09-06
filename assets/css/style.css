@@ -84,6 +84,7 @@ h3 {
   color: #0a0741;
   text-align: center;
   text-decoration: none;
+  text-shadow: 0.5px 0.5px rgb(161, 159, 159);
   padding-left: 90px;
   
   
@@ -104,6 +105,7 @@ nav a {
   line-height: 18px;
   color: navy;
   text-decoration: none;
+  text-shadow: 0.5px 0.5px rgb(161, 159, 159);
   border-left: 1px solid #efefef;
 }
 
@@ -152,7 +154,7 @@ h3, h2 {
 
 /* portfolio page */
 
-.work {
+/* .work {
   position: relative;
   float: left;
   width: 274px;
@@ -168,7 +170,7 @@ h3, h2 {
   width: 100%;
   border: 0 none;
   opacity: 0.8;
-}
+} */
 
 /* .work h3 {
   position: absolute;
@@ -190,11 +192,46 @@ h3, h2 {
   height: auto;
   margin-top: 10px;
   margin-right: 25px;
+  border-radius: 50%;
+}
+
+
+#movie, #bamazon {
+  float: right;
+  padding-right: 80px;
+}
+
+#whiteboard, #crystal {
+  padding-left: 80px;
+}
+
+#crystal, #bamazon {
+  padding-top: 20px;
+}
+
+.card-img-top {
+  width: 278px;
+  height: 180px;
+  border-color: black;
+  border-style: solid;
+  border-width: 1px;
+}
+
+.card {
+  background: -webkit-linear-gradient(top, #feffff 0%,#ddf1f9 35%,#a0d8ef 100%);  
+  margin-bottom: 20px;
+  border-color: #0a0741;
+  border-style: solid;
+  border-width: 5px;
+}
+
+.card-body {
+  text-align: center;
 }
 
 /* contact page */
 
-#contact-form ul {
+/* #contact-form ul {
   margin-bottom: 20px;
 }
 
@@ -230,7 +267,7 @@ input[type=submit] {
   cursor: pointer;
   background: #4aaaa5;
   border: 0 none;
-}
+} */
 
 @media screen and (min-width: 980px) {
   .wrapper {
@@ -250,3 +287,4 @@ input[type=submit] {
     position: static;
     }
 }
+
